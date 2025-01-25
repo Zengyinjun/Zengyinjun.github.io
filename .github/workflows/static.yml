@@ -41,14 +41,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "20"  # 你可以修改为适合的 Node.js 版本
-      # 4. 替换 baseURL
-      - name: Replace baseURL
-        run: |
-          sed -i 's|^baseURL:.*|baseURL: "https://zengyinjun.github.io/"|' hugo.yaml
 
-      # 5. 构建 Hugo 页面
+      # 4. 构建 Hugo 页面
       - name: Build Hugo
         run: hugo --minify 
+        env:
+          HUGO_BASEURL: "https://zengyinjun.github.io/"
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

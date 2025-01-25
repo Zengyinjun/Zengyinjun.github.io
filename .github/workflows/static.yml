@@ -47,6 +47,10 @@ jobs:
       # 4. 构建 Hugo 页面
       - name: Build Hugo
         run: hugo --minify --baseURL="https://zengyinjun.github.io/"
+      - name: ls
+        run: ls
+      - name: see public
+        run: ls public
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact

@@ -14,7 +14,8 @@ buildDraft: false
 buildFuture: false
 buildExpired: false
 summaryLength: 140
-paginate: 5
+pagination:
+  pagerSize: 5
 
 minify:
   disableXML: true

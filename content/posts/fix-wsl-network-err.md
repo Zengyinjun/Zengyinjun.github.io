@@ -1,6 +1,6 @@
 +++
 date = '2025-12-15T01:20:50+08:00'
-title = 'My First Post'
+title = '修复 WSL 网络配置错误 0x8007054f'
 +++
 
  
@@ -65,6 +65,6 @@ wsl -d <你的发行版名称>
 ---
 
 ## 参考
-来源：https://www.vhcffh.com/2025/brc5Auzq
+来源：[修复 WSL 网络配置错误 0x8007054f](https://www.vhcffh.com/2025/brc5Auzq)
 
 

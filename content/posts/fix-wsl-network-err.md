@@ -1,5 +1,6 @@
 +++
 date = '2025-12-15T01:20:50+08:00'
+lastmod = '{{.Lastmod| time.Format ":date_medium" }}'
 title = '修复 WSL 网络配置错误 0x8007054f'
 +++
 
